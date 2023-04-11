@@ -25,16 +25,18 @@
 
 .row {
     width: 100%;
+    background-color: #e33471;
 }
 
 .col {
-    width: calc(100% / 3 - 20px);
+    background-color: #3d07ff;
     float: left;
-    margin: 10px;    
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
 }
 
 .row::after {
-    content: '';
+    content: "";
     display: table;
     clear: both;
 }
@@ -42,7 +44,7 @@
 .content {
     float: left;
     background-color: #0f0e17;
-    width: 350px;
+    width: 300px;
     height: 100px;
 }
 
@@ -55,7 +57,7 @@
 
 .description {
     color: white;
-    text-align: left center;   
+    text-align: left;   
 }
 
 .description h4 {
