@@ -6,7 +6,7 @@
 
 /* UTILITIES */
     body {
-        max-width: 80%;
+        max-width: 70%;
         margin: 0 auto;
         font-family: 'Fredoka', sans-serif;
     }
@@ -23,30 +23,43 @@
     }
 /* FINE UTILITIES */
 
+/* FORMATTAZIONE RIGHE E COLONNE */
 .row {
     width: 100%;
-    background-color: #e33471;
 }
 
-.row::after {
+.col::after {
     content: "";
     display: table;
     clear: both;
 }
 
 .col {
-    background-color: #3d07ff;
     float: left;
     margin: 10px;
     width: calc(100% / 3 - 20px);
 }
 
-.content {
+.card {
     float: left;
     background-color: #0f0e17;
-    width: 300px;
+    width: 80%;
     height: 100px;
 }
+
+.card1{
+    float: left;
+}
+
+.card2 {
+    float: both;
+}
+
+.card3 {
+    float: right;
+}
+
+/* FORMATTAZIONE CONTENUTO CARD */
 
 .image img{
     float: left;
