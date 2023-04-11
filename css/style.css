@@ -28,17 +28,17 @@
     background-color: #e33471;
 }
 
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .col {
     background-color: #3d07ff;
     float: left;
     margin: 10px;
     width: calc(100% / 3 - 20px);
-}
-
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .content {
