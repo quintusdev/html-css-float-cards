@@ -39,12 +39,6 @@
     clear: both;
 }
 
-.col::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 .content {
     float: left;
     background-color: #0f0e17;
